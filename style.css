@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightskyblue;
+}
+
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Barbie', sans-serif;
+  background-color: lightblue;
+  color: hotpink;
+  height: 100px;
+}
+
+.members{
+  text-align: center;
+  padding-top: 0px;
+  font-size: 40px;
+  font-family: 'Barbie', sans-serif;
+  color: hotpink
+}
+
+.img{
+  height: 250px;
+}
+
+.goals{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Barbie', sans-serif;
+  color: hotpink
+}
+
+.buttons{
+  text-align: center;
+  font-family: 'Barbie', sans-serif;
+  font-size: 40px;
+  color: black;
+}
