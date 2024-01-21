@@ -1,40 +1,95 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: lightskyblue;
+  background: rgb(70,178,227);
+  background: linear-gradient(180deg, rgba(70,178,227,1) 35%, rgba(236,247,253,1) 100%);
 }
 
 h1{
-  text-align: center;
-  font-size: 100px;
-  font-family: 'Barbie', sans-serif;
-  background-color: lightblue;
-  color: hotpink;
-  height: 100px;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Barbie', sans-serif;
+    background: rgb(245,172,202);
+    background: linear-gradient(180deg, rgba(245,172,202,1) 35%, rgba(223,53,139,1) 100%);
+    padding-bottom: 20px;
+    color: #f4dfe6;
+    height: 125px;
 }
-
-.members{
-  text-align: center;
-  padding-top: 0px;
-  font-size: 40px;
-  font-family: 'Barbie', sans-serif;
-  color: hotpink
+h4{
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Barbie', sans-serif;
+    background: rgb(245,172,202);
+    background: linear-gradient(180deg, rgba(245,172,202,1) 35%, rgba(223,53,139,1) 100%);
+    padding-top: 15px;
+    color: #f4dfe6;
+    height: 100px;
 }
 
 .img{
   height: 250px;
 }
-
 .goals{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Barbie', sans-serif;
-  color: hotpink
+  color: #f4dfe6;
 }
-
+.goals2{
+  background: rgb(222,52,138);
+  background: radial-gradient(circle, rgba(222,52,138,1) 35%, rgba(70,178,227,0) 100%);
+  padding: 100px;
+}
 .buttons{
   text-align: center;
   font-family: 'Barbie', sans-serif;
-  font-size: 40px;
-  color: black;
+  font-size: 80px;
+  color: #f4dfe6;
+  border-radius: 50%;
 }
+.buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #f4dfe6;
+}
+.buttons a:hover{
+  background-color: #2980b9;
+  transition: transform 0.3s ease-in-out;
+   transform: scale(1.1);
+}
+.buttons2{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #4299e1;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 30px;
+  border-bottom: 4px solid #2b6cb0;
+  font-weight: 800;
+  color: white;
+  line-height: 26px;
+}
+  
+.fade-in-element {
+ opacity: 0;
+ transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in-element.visible {
+ opacity: 1;
+}
+
+.members {
+  width: 33%;
+  float: left;
+  font-family: 'Barbie', sans-serif;
+  color: #f4dfe6;
+  text-align: center;
+  background: rgb(222,52,138);
+  background: radial-gradient(circle, rgba(222,52,138,1) 35%, rgba(70,178,227,0) 100%);
+  padding-top: 15px;
+  font-size: 32.5px;
+  }
