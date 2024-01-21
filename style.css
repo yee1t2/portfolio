@@ -5,6 +5,7 @@ html {
   background: linear-gradient(180deg, rgba(70,178,227,1) 35%, rgba(236,247,253,1) 100%);
   
 }
+
 h1{
     text-align: center;
     font-size: 150px;
@@ -36,8 +37,9 @@ h4{
 }
 .goals2{
   background: rgb(222,52,138);
-  background: radial-gradient(circle, rgba(222,52,138,1) 35%, rgba(70,178,227,0) 100%);
-  padding: 100px;
+  background: radial-gradient(circle, rgba(222,52,138,1) 0%, rgba(70,178,227,1) 100%);
+  padding: 10px;
+  font-size: 20px;
 }
 .buttons{
   text-align: center;
