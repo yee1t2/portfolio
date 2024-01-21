@@ -3,8 +3,8 @@ html {
   width: 100%;
   background: rgb(70,178,227);
   background: linear-gradient(180deg, rgba(70,178,227,1) 35%, rgba(236,247,253,1) 100%);
+  
 }
-
 h1{
     text-align: center;
     font-size: 150px;
@@ -25,7 +25,6 @@ h4{
     color: #f4dfe6;
     height: 100px;
 }
-
 .img{
   height: 250px;
 }
@@ -54,7 +53,7 @@ h4{
   color: #f4dfe6;
 }
 .buttons a:hover{
-  background-color: #2980b9;
+  background-color:  rgb(222,52,138);
   transition: transform 0.3s ease-in-out;
    transform: scale(1.1);
 }
@@ -72,16 +71,13 @@ h4{
   color: white;
   line-height: 26px;
 }
-  
 .fade-in-element {
  opacity: 0;
  transition: opacity 0.5s ease-in-out;
 }
-
 .fade-in-element.visible {
  opacity: 1;
 }
-
 .members {
   width: 33%;
   float: left;
