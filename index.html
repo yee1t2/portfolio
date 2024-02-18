@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Group Portfolio</title>
+  <title>Sign In Page</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
   @import url('https://fonts.cdnfonts.com/css/barbie');
@@ -14,17 +14,32 @@
 </head>
 
 <body>
-  <h1>Our Groups Portfolio</h1>
-   <h4>Welcome!</h4>
-  <div class="buttons">
-  <div class="buttons2">
-  <a href="member.html">Members!</a> 
+  <script src="script.js"></script>
+
+  <div class="wrapper">
+      <h1>Login</h1>
+
+
+  <div class="login">
+    <form onsubmit="cred(event)">
+      <div class="input-box">
+        <input class="input" type="text" id="UN" placeholder="Username" required>
+      </div>
+      <div class="input-box">
+        <input class="input" type="password" id="PW" placeholder="Password" required>
+      </div>
+      <button class="input" type="submit" class="btn">Login</button>
+
+      <div class="buttons3">
+        <div class="buttons2">
+          <div class="buttons">
+            <a class="buttons2" href="signup.html">Sign-Up</a>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 
-  <div class="buttons2">
-  <a href="goals.html">Goals!</a>
-  </div>  
-    
-</body>
 
+</body>
 </html>

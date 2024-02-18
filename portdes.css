@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#AC9362;
+  font-family: 'EB Garamond';font-size: 20px;
+  color: white;
+  
+}
+img {
+  width: 8%;
+  border-radius: 50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3,p{
+  text-align: center;
+}
+h4 {
+  text-align:left;
+}
+
+.header {
+  background-color: darkslategray;
+  padding: 30px;
+  margin-bottom:4 0px;
+  height: 100%;
+}

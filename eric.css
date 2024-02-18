@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+h1{
+  float: left;
+  padding-right: 30px;
+}
+
+.img{
+  height: 200px;
+  float: left;
+  padding-top: 25px;
+}
+h3{
+  background-color: black;
+  max-width: 20%;
+}
+
+.blink {
+  animation: blink 2s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+marquee{
+  background:linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
+  font-size: 50px;
+}
